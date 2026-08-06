@@ -12,7 +12,7 @@ Bu proje, meşhur **Titanic veri seti** üzerinde yapılan Keşifçi Veri Analiz
 
 ### Neler Yapıldı?
 * **Eksik Veri Yönetimi (Imputation):** Veri setindeki eksik `age` (yaş) ve `embarked` (biniş yeri) değerleri, istatistiksel yöntemlerle (Ortalama/Mean, Medyan/Median ve Mod/Mode Imputation) dolduruldu.
-* **Veri Keşfi ve İşleme:** `titanicDataset.ipynb` dosyasında **Pandas** kütüphanesi kullanılarak veri filtreleme, sıralama ve gruplama (groupby) işlemleri yapıldı.
+* **Veri Keşfi ve İşleme:** `titanic-dataset-with-pandas.ipynb` dosyasında **Pandas** kütüphanesi kullanılarak veri filtreleme, sıralama ve gruplama (groupby) işlemleri yapıldı.
 * **Veri Görselleştirme (EDA):** Veri seti içindeki yolcuların yaş dağılımı vb. özellikleri `Seaborn` ve `Matplotlib` kütüphaneleri kullanılarak Histogram ve Boxplot grafikleriyle incelendi.
 * Çalışmalar Jupyter Notebook (`.ipynb`) formatında hazırlandı.
 
@@ -39,7 +39,7 @@ This repository contains Exploratory Data Analysis (EDA) and fundamental Feature
 
 ### What Was Done?
 * **Missing Value Imputation:** Handled missing data in the `age` and `embarked` columns using statistical methods, specifically Mean, Median, and Mode Imputation.
-* **Data Exploration and Processing:** Data filtering, sorting, and grouping (groupby) operations were performed using the **Pandas** library in the `titanicDataset.ipynb` file.
+* **Data Exploration and Processing:** Data filtering, sorting, and grouping (groupby) operations were performed using the **Pandas** library in the `titanic-dataset-with-pandas.ipynb` file.
 * **Data Visualization (EDA):** Analyzed the distribution of passengers' ages and other features using Histograms and Boxplots with `Seaborn` and `Matplotlib`.
 * The work is provided in Jupyter Notebook (`.ipynb`) format.
 
